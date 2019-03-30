@@ -1,0 +1,20 @@
+{
+    "name": "mrcnpdlk/lib-exception",
+    "license": "MIT",
+    "description": "Exception Library",
+    "minimum-stability": "stable",
+    "type": "library",
+    "authors": [ {
+        "name": "Marcin Pudełek",
+        "email": "marcin@pudelek.org.pl",
+        "role": "Developer"
+    } ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mrcnpdlk\\Lib\\": "src/"
+        }
+    }
+}
